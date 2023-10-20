@@ -11,7 +11,7 @@ const ProjectBackers = ({ backers }) => {
         shadow-md rounded-md w-full mb-10"
       >
         <table className="min-w-full">
-          <thead className="border-b">
+          <thead className="border-b text-gray-200">
             <tr>
               <th
                 scope="col"
@@ -55,9 +55,9 @@ const ProjectBackers = ({ backers }) => {
 }
 
 const Backer = ({ backer }) => (
-  <tr className="border-b border-gray-200">
+  <tr className="border-b border-gray-200 text-gray-300">
     <td
-      className="text-sm font-light
+      className="text-sm  font-light
       px-6 py-4 whitespace-nowrap"
     >
       <div className="flex justify-start items-center space-x-2">

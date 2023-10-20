@@ -27,7 +27,7 @@ const ProjectDetails = ({ project }) => {
 
           <div className="flex-1 sm:py-0 py-4">
             <div className="flex flex-col justify-start flex-wrap">
-              <h5 className="text-gray-900 text-xl font-medium mb-2">
+              <h5 className="text-gray-300 text-xl font-medium mb-2">
                 {project?.title}
               </h5>
               <small className="text-gray-500">
@@ -84,7 +84,7 @@ const ProjectDetails = ({ project }) => {
                 ></div>
               </div>
 
-              <div className="flex justify-between items-center font-bold mt-2">
+              <div className="flex justify-between items-center font-bold mt-2 text-gray-200">
                 <small>{project?.raised} ETH Raised</small>
                 <small className="flex justify-start items-center">
                   <FaEthereum />

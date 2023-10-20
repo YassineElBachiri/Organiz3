@@ -16,7 +16,7 @@ const Projects = ({ projects }) => {
   }, [projects, end])
 
   return (
-    <div className="flex flex-col px-6 mb-7">
+    <div className="flex flex-col px-6 mb-7 bg-[#212121]">
       <div className="flex justify-center items-center flex-wrap">
         {collection.map((project, i) => (
           <ProjectCard key={i} project={project} />
@@ -44,7 +44,7 @@ const ProjectCard = ({ project }) => {
   const expired = new Date().getTime() > Number(project?.expiresAt + '000')
 
   return (
-    <div id="projects" className="rounded-lg shadow-lg bg-white w-64 m-4">
+    <div id="projects" className="rounded-lg shadow-lg bg-[#313131] w-64 m-4">
       <Link to={'/projects/' + project.id}>
         <img
           src={project.imageURL}

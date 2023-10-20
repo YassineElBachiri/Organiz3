@@ -1,7 +1,8 @@
 //SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity >=0.7.0 <0.9.0;
+pragma experimental ABIEncoderV2;
 
-contract Genesis {
+contract Organiz3 {
     address public owner;
     uint public projectTax;
     uint public projectCount;

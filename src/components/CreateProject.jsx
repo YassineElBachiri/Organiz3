@@ -51,10 +51,10 @@ const CreateProject = () => {
     <div
       className={`fixed top-0 left-0 w-screen h-screen flex
     items-center justify-center bg-black bg-opacity-50
-    transform transition-transform duration-300 ${createModal}`}
+    transform transition-transform duration-300 z-10 ${createModal}`}
     >
       <div
-        className="bg-white shadow-xl shadow-black
+        className="bg-[#313131] shadow-xl shadow-black
         rounded-xl w-11/12 md:w-2/5 h-7/12 p-6"
       >
         <form onSubmit={handleSubmit} className="flex flex-col">
